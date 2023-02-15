@@ -1,0 +1,36 @@
+#drum-machine {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.drum-pad {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  height: 100px;
+  background-color: lightgray;
+  margin: 10px;
+  border-radius: 5px;
+  font-size: 24px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.clip {
+  display: none;
+}
+
+.drum-pad.active {
+  background-color: darkgray;
+}
+
+#display {
+  width: 100%;
+  height: 50px;
+  background-color: white;
+  font-size: 24px;
+  text-align: center;
+  line-height: 50px;
+}
